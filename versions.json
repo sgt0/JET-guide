@@ -3,5 +3,10 @@
     "version": "fix-typo",
     "title": "fix-typo",
     "aliases": []
+  },
+  {
+    "version": "comp-erasure",
+    "title": "comp-erasure",
+    "aliases": []
   }
 ]
