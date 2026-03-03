@@ -10,11 +10,6 @@
     "aliases": []
   },
   {
-    "version": "fix-links",
-    "title": "fix-links",
-    "aliases": []
-  },
-  {
     "version": "comp-erasure",
     "title": "comp-erasure",
     "aliases": []
