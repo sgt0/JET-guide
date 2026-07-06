@@ -1,5 +1,10 @@
 [
   {
+    "version": "zensical",
+    "title": "zensical",
+    "aliases": []
+  },
+  {
     "version": "master",
     "title": "master",
     "aliases": []
