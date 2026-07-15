@@ -1,5 +1,10 @@
 [
   {
+    "version": "vs74-jetpack2-install",
+    "title": "vs74-jetpack2-install",
+    "aliases": []
+  },
+  {
     "version": "master",
     "title": "master",
     "aliases": []
