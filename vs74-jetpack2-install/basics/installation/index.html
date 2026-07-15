@@ -1763,14 +1763,14 @@
 as well as how to properly set up your code editor and previewer.
 If you know what you're doing, you can skip or modify any of the steps listed here,
 but if you run into issues this should be a fairly foolproof way to get things working again.</p>
-<p>Since VapourSynth R74, everything is installed through <code>pip</code> (or <code>uv</code>),
+<p>As of VapourSynth R74, everything is installed through <code>pip</code> (or <code>uv</code>),
 including VapourSynth itself and most plugins.
 No separate installers or plugin managers are needed anymore.</p>
 <h2 id="getting-a-clean-slate">Getting a Clean Slate</h2>
 <p>If you never used VapourSynth before R74, or you're on Linux, you can probably skip this step.</p>
 <p>If you previously installed VapourSynth using the Windows installer (R73 or earlier),
 uninstall it before proceeding.
-Since R74, plugins are stored inside the VapourSynth Python package,
+As of R74, plugins are stored inside the VapourSynth Python package,
 and <strong>no plugins will be loaded from the previous locations</strong>,
 so leftovers from an old installation will only cause confusion.
 Also delete any leftover directories like</p>
@@ -1781,7 +1781,7 @@ Also delete any leftover directories like</p>
 <p>on Windows.</p>
 <h2 id="installing-python">Installing Python</h2>
 <p>VapourSynth requires Python 3.12 or later.
-Since R74, a single VapourSynth wheel works on all supported Python versions,
+As of R74, a single VapourSynth wheel works on all supported Python versions,
 so you can simply install the latest stable Python release.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Windows</label><label for="__tabbed_1_2">Linux</label></div>
 <div class="tabbed-content">
@@ -1811,7 +1811,7 @@ in every new terminal session in which you want to use VapourSynth.</p>
 </div>
 </div>
 <h2 id="installing-vapoursynth">Installing VapourSynth</h2>
-<p>Since R74, VapourSynth is installed with pip on all platforms.
+<p>As of R74, VapourSynth is installed with pip on all platforms.
 Open a terminal and run:</p>
 <div class="highlight" style="background: #282C34"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-1">1</a></span>
 <span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>pip install vapoursynth
@@ -1839,7 +1839,7 @@ On Windows, update the Visual Studio Redistributable if the command tells you to
 <li>More complex filtering functions which combine functions of various plugins
   to achieve various filtering goals</li>
 </ul>
-<p>Since vs-jetpack v2, the VapourSynth plugins that these functions rely on
+<p>As of vs-jetpack v2, the VapourSynth plugins that these functions rely on
 are themselves distributed as Python packages
 and can be installed automatically alongside <code>vsjetpack</code> using <em>extras</em>.
 The simplest option is the <code>full</code> extra, which pulls in all CPU-based plugins:</p>
