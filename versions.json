@@ -5,6 +5,11 @@
     "aliases": []
   },
   {
+    "version": "replace-vsrepo-install",
+    "title": "replace-vsrepo-install",
+    "aliases": []
+  },
+  {
     "version": "master",
     "title": "master",
     "aliases": []
