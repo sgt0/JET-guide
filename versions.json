@@ -1,5 +1,10 @@
 [
   {
+    "version": "vsview-set-output",
+    "title": "vsview-set-output",
+    "aliases": []
+  },
+  {
     "version": "master",
     "title": "master",
     "aliases": []
